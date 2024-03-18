@@ -1,0 +1,49 @@
+img {
+    width: 400px;
+    margin-top: 4%;
+    border-style: solid;
+    border-color: rgb(22, 49, 114, 1);
+}
+.div {
+    display: flex;
+    flex-direction: column;
+}
+/* สร้างเลย์เอาต์ของแต่ละรายการในรูปแบบแนวนอน */
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* กำหนดขนาดของแต่ละคอลัมน์ */
+.column {
+    flex: 1; /* ทำให้แต่ละคอลัมน์มีขนาดเท่ากัน */
+    padding: 30px; /* เพิ่มระยะห่างระหว่างคอลัมน์ */
+    border: 1px solid #ddd; /* เพิ่มเส้นขอบสำหรับแต่ละคอลัมน์ */
+    text-align: center; /* จัดการยอดข้อความให้แสดงตรงกลาง */
+}
+.custom_spreadsheet {
+    width: 100%;
+    table-layout: fixed;
+    font-family: "Kanit";
+}
+.custom_spreadsheet th,
+.custom_spreadsheet td {
+    padding: 5px; /* เพิ่มระยะห่างของข้อมูลในตาราง */
+    text-align: center; /* จัดข้อความในตารางให้อยู่ตรงกลาง */
+}
+.custom_spreadsheet_wrapper {
+    max-height: 400px; /* ปรับความสูงสูงสุดของกรอบย่อยตามต้องการ */
+    width: 400px;
+    overflow: auto; /* เพิ่มแถบเลื่อนเมื่อข้อมูลเต็มกรอบ */
+}
+span {
+    font-family: "Kanit";
+}
+.custom_button1 {
+    background-color: rgb(25, 25, 100);
+}
+.custom_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
